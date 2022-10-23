@@ -71,7 +71,7 @@
 				<td><%=age %></td>
 			</tr>
 	</table>
-	<p class="btnWrap"><a href="list.jsp">회원정보리스트 보기</a></p>
+	<p class="subBtn"><a href="list.jsp">회원정보리스트 보기</a></p>
 </section>
 </body>
 </html>

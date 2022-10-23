@@ -3,9 +3,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>회원가입</title>
-<link rel="stylesheet" type="text/css" href="css/style.css"> 
+	<meta charset="UTF-8">
+	<title>회원가입</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
 </head>
 <body>
 	<section>

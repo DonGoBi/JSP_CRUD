@@ -13,10 +13,8 @@
 	<h2>회원 정보 수정</h2>
 	<%
 		String idx = request.getParameter("u_idx");
-	
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
-		
 		String query = "select * from user where u_idx=?";
 		pstmt = conn.prepareStatement(query);
 		pstmt.setString(1, idx);
@@ -36,8 +34,8 @@
 			<table>
 					<tr>
 						<th><label for="id">아이디</label></th>
-						<input type="hidden" name="u_idx" value="<%=u_idx%>">
-						<td><input type="text" name="edit_id" value="<%=u_id%>" id="id"></td>
+						<td><input type="hidden" name="u_idx" value="<%=u_idx%>">
+						<input type="text" name="edit_id" value="<%=u_id%>" id="id"></td>
 					</tr>
 					<tr>
 						<th><label for="password">비밀번호</label></th>
@@ -61,7 +59,7 @@
 					
 			</table>
 			
-			<p class="btnWrap"><input type="submit" value="수정완료"></p>
+			<p class="subBtn"><input type="submit" value="수정완료"></p>
 		</form>
 	<%
 		}

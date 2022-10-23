@@ -12,8 +12,6 @@
 
 <%
 	String idx = request.getParameter("u_idx");
-	System.out.println(idx);
-	
 	PreparedStatement pstmt = null;
 	
 	String query = "delete from user where u_idx=?";
